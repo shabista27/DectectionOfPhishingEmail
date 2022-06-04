@@ -1,0 +1,94 @@
+{
+  "id": "2d5144ba-29b1-4cfe-9614-0b5d5196676c",
+  "version": "2.0",
+  "name": "Tokenizer",
+  "url": "https://colab.research.google.com/drive/1efbhgisBADrN8ND-0PtDq79F4sTxtBkL#scrollTo=m3X54eGLEIye",
+  "tests": [{
+    "id": "badeb828-0dc6-4cf3-935e-fa22ed4ffaba",
+    "name": "Tokenizer-Expanation",
+    "commands": [{
+      "id": "d6b8c843-60d9-41b3-90d1-1b8637697b99",
+      "comment": "",
+      "command": "open",
+      "target": "https://colab.research.google.com/drive/1efbhgisBADrN8ND-0PtDq79F4sTxtBkL#scrollTo=m3X54eGLEIye",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9a0208d-8751-4868-a8a6-3460c46dbb87",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc66026b-da27-4a6e-a854-472b2d9a5e3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#runtime-menu-button .goog-menu-button-caption",
+      "targets": [
+        ["css=#runtime-menu-button .goog-menu-button-caption", "css:finder"],
+        ["xpath=//div[@id='runtime-menu-button']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63b2141d-9362-409a-9605-391c30460347",
+      "comment": "",
+      "command": "click",
+      "target": "id=:1v",
+      "targets": [
+        ["id=:1v", "id"],
+        ["css=#\\3A 1v", "css:finder"],
+        ["xpath=//div[@id=':1v']", "xpath:attributes"],
+        ["xpath=//div[@id='runtime-menu']/div", "xpath:idRelative"],
+        ["xpath=//body/div[13]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b950b209-cff0-4845-b7ae-004e2504c80e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddd12fa4-4af1-4d8a-8e07-600edc165958",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45193b6e-19f0-4dc0-a38f-16ae981315a2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58c822f8-725c-45aa-9151-a877b602f589",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ab9e571-0670-4f73-8589-ce1a3964a14d",
+      "comment": "",
+      "command": "//close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3aa0df4c-12a0-4fcf-9f4a-8e6bc93733fd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://colab.research.google.com/", "https://colab.research.google.com/drive/1efbhgisBADrN8ND-0PtDq79F4sTxtBkL#scrollTo=m3X54eGLEIye"],
+  "plugins": []
+}

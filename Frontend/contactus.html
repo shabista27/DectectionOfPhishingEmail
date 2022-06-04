@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Contact Us</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+crossorigin="anonymous">
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+<nav class="left">
+<a href="#menu"><span>Menu</span></a>
+</nav>
+<a href="index.html" class="logo">Controlled Intelligence</a>
+<nav class="right">
+<a href="login.html" class="button alt">Log in</a>
+</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+<ul class="links">
+<li><a href="index.html">Home</a></li>
+<li><a href="registration.html">Join Us</a></li>
+<li><a href="#three">About Us</a></li>
+<li><a href="checking.html">Scan for phishing fraud</a></li>
+</ul>
+</nav>
+<!-- Main -->
+<section id="main" class="wrapper">
+<div class="inner">
+<header class="align-center">
+<h1>Help Us Grow!!</h1>
+</header>
+<!-- Form -->
+
+
+<h2>Feedback always helps. :)</h2>
+
+<form method="post">
+<div class="row">
+<div class="6u 12u$(xsmall)">
+					<h3 >Name</h3>
+
+						<input type="text" name="name" id="name"  placeholder="Name" />
+
+</div>
+
+
+<h3 >Email Id</h3>
+<div class="6u$ 12u$(xsmall)">
+
+	<input type="email" name="email" id="email"  placeholder="Email" required onkeyup="ValidateEmail();" />
+
+  <span id="lblError" ></span>
+
+</div>
+
+</div>
+
+	
+<div >
+	<br>
+	<h3 >Rate Us</h3>
+	<input type="radio" id="best" name="rating" value="3" checked  />
+	<label for="best"></label>
+<img src="https://img.icons8.com/emoji/48/000000/grinning-squinting-face--v2.png"/>
+<br>
+<br>
+	<input type="radio" id="avg" name="rating" value="2" />
+	<label for="avg"></label>
+	<img src="https://img.icons8.com/emoji/48/000000/confused-face.png"/>
+<br>
+<br>
+	<input type="radio" id="worst" name="rating" value="1"/>
+	<label for="worst"></label>
+	<img src="https://img.icons8.com/emoji/48/000000/disappointed-face.png"/>
+	<br>
+<br>
+</div>
+
+<br>
+	<h3 >Message</h3>
+<div class="12u$">
+	<textarea name="message" id="message" placeholder="Enter your message" rows="6" required onkeyup="ValidateMessage();"></textarea>
+
+	<span id="lblError1" ></span>
+</div>
+
+<!-- Break -->
+<br>
+<br>
+<div class="12u$">
+	<ul class="actions">
+		<li><input type="button" value="Send Message" id="button"  onclick="feedback();" disabled /></li>
+		<li><input type="reset" value="Reset" id="reset" class="alt" /></li>
+	</ul>
+>
+</div>
+</div>
+</form>
+
+<hr />
+
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer id="footer">
+<div class="inner">
+<h2>Get In Touch</h2>
+<ul class="actions">
+<li><span class="icon fa-phone"></span> <a href="#">+91 0000 00000</a></li>
+<li><span class="icon fa-envelope"></span> <a href="#">sshabista010@gmail.com</a></li>
+
+</ul>
+</div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/feedback.js"></script>
+
+</body>
+</html>

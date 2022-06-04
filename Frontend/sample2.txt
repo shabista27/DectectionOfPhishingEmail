@@ -1,0 +1,41 @@
+Delivered-To: sshabista010@gmail.com
+Received: by 2002:a4a:d8c5:0:0:0:0:0 with SMTP id c5csp2757769oov;
+        Sun, 30 May 2021 23:16:52 -0700 (PDT)
+X-Received: by 2002:a19:8c58:: with SMTP id i24mr2591089lfj.121.1622441811825;
+        Sun, 30 May 2021 23:16:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1622441811; cv=none;
+
+--000000000000cf3cc505c39a2ba0
+Content-Type: multipart/alternative; boundary="000000000000cf3cc205c39a2b9e"
+
+--000000000000cf3cc205c39a2b9e
+Content-Type: text/plain; charset="UTF-8"
+
+Password and Email Id Attached with this mail.
+
+Email Id:
+
+familyshadab@gmail.com
+
+
+And the Drive folder link for Zeedan Pictures.
+
+https://drive.google.com/drive/folders/1CcZSMJeIxeVrPYuu-M7B8MvlXgMDBQS-?usp=sharing
+
+--000000000000cf3cc205c39a2b9e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<
+rPYuu-M7B8MvlXgMDBQS-?usp=3Dsharing</a>=C2=A0<div><br></div></div></div>
+
+--000000000000cf3cc205c39a2b9e--
+--000000000000cf3cc505c39a2ba0
+Content-Type: image/jpeg; name="WhatsApp Image 2021-05-31 at 11.43.32 AM.jpeg"
+Content-Disposition: attachment; filename="WhatsApp Image 2021-05-31 at 11.43.32 AM.jpeg"
+Content-Transfer-Encoding: base64
+Content-ID: <f_kpc7wpeh0>
+X-Attachment-Id: f_kpc7wpeh0
+
+
+--000000000000cf3cc505c39a2ba0--

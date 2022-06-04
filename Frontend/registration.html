@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+</head>
+<link rel="stylesheet" href="assets/css/login.css" /> 
+<body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="assets/js/registration.js"></script>
+
+  <a href="index.html">
+   <input type="button" class="fadeIn first" value="Return" onclick="history.back()"></a>
+  
+
+  <form method="post" name="form">
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+       
+       <a href="login.html">
+    <h2 class="inactive underlineHover">Sign In </h2>
+        </a>
+    
+    <h2 class="active underlineHover">Sign Up </h2>
+
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="images/registration.png" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Registration Form -->
+    
+      <input type="text" id="name" class="fadeIn second" name=" First Name" placeholder="First Name" required  onkeyup='ValidateName();'>*
+       <br>
+      <span id='nameError'></span>
+
+      <input type="text" id="lname" class="fadeIn second" name="Last Name" placeholder="Last Name" required onkeyup='ValidateLname();'>*<br>
+       <span id='lnameError'></span>
+
+      <!-- <select name="category" id="category" required>
+                            <option value="">- Category -</option>
+                            <option value="1">STUDENT</option>
+                            <option value="1">PROFESSIONAL</option>
+                            <option value="1">ADMINSTRATION</option>
+                            <option value="1">INSTITUTIONS</option>
+                          </select>* -->
+      <input type="password" id="password" class="fadeIn third" name="" onkeyup='check();' placeholder="Password" required>*
+      <input type="password" id="cpassword" class="fadeIn third" onkeyup='check();' name="" placeholder="Confirm Password" required>*
+      <br>
+      <span id='message'></span>
+      
+      <input type="email" id="email" class="fadeIn third" name="email" placeholder="Email" required onkeyup="ValidateEmail();" >*
+       <br>
+      <span id="lblError" ></span>
+
+      <input type="tel" required id="phone" class="fadeIn third" id="phone" name="phone" placeholder="Phone Number" required onkeyup="ValidatePhone();"> *
+       <br>
+          <span id="lblError1"></span>
+
+ <br>
+      <input type="button" id="button" class="fadeIn fourth" value="Register" disabled onclick="registration();">
+    </form>
+<!-- onclick="registration()"  -->
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+     
+    </div>
+
+
+
+  </div>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,146 @@
+Delivered-To: sshabista010@gmail.com
+Received: by 2002:a4a:9b1a:0:0:0:0:0 with SMTP id a26csp1764064ook;
+        Fri, 12 Feb 2021 01:09:44 -0800 (PST)
+X-Received: by 2002:a05:6638:388e:: with SMTP id b14mr1792797jav.96.1613120984662;
+        Fri, 12 Feb 2021 01:09:44 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1613120984; cv=none;
+        d=google.com; s=arc-20160816;
+        b=pCE4kaqf1E20xNSn6I7LJMYWtpbs3EcOU3USxxI5WQWt0v3vIbsfRoV006Q1ww0EiT
+         gOfHyJeeM7mjNc4BPPwzj8H3iUh+CEPzk73xRPU3g3vPrmzGpxm6GLhs3CtCTXWZx0D1
+         XjopKhw7qwsX0qs1BIfjcm/SVX8GJQToyEn/L7FnpQN8zY1HpQMF0P8F5HsOA66NfXn0
+         KBIMjD2G6zrVceJ0vECEPoU6Fhntn57uU9L0eNmBX1OGY9F2yDR8/Rc46I03dUBMkole
+         SYyv863bAY2s/xO0i38fvWzvAubiTNg04qVfKVSOe/8j1HUL1m+pMI96u8JMSc4ocUrg
+         Kl1Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=8X8d8nuuFTNGderbbUxi3ljdxUD3SxEZjQVsqfCxyzY=;
+        b=ynKccQhGvrxLwULmvfvqpKPoZTsLRKA3+HFOn+CxT78/a5Rj/38ALPHLwpsL200AyV
+         SjpOnhE0fuSvXUhDEWbTGWkPTqQrxFG9lUSgwYISbQfqDxD6D2xIKQE+Pz8mh44vAnU2
+         kqEdvHyQEPPmzrY28qcJJfm0C+z+ObDsAX4V/mdmqthgq9Idis0uNdbZhv8E0XthQd+n
+         GSiTlo9obbnJE8Z3uKPJ1MHFM4PIJ3M8iNjvm+ZfzDbgx4oElRc6cPBbqLX5gtOcjb3n
+         LgIvRZGQUkMTrFfpNGjG04aLLPvgzH+XqeoE0S8qP3J9lKsKsg2SZR8dl/buHvCPyiHI
+         pH8w==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=DwOJFztN;
+       spf=pass (google.com: domain of sonali.sonavane@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=sonali.sonavane@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <sonali.sonavane@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n11sor3765817ilk.86.2021.02.12.01.09.44
+        for <sshabista010@gmail.com>
+        (Google Transport Security);
+        Fri, 12 Feb 2021 01:09:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of sonali.sonavane@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=DwOJFztN;
+       spf=pass (google.com: domain of sonali.sonavane@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=sonali.sonavane@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=8X8d8nuuFTNGderbbUxi3ljdxUD3SxEZjQVsqfCxyzY=;
+        b=DwOJFztNcR8F4LE/L7FT+UUVoIM9eFzqZVFMr1qnRDIzegFBdJwTQ1WE3mKNDAIiPp
+         uvCUjSJUbHt7eNxoWT3hD10/BzDDAFDzhf5Tn/m16sqdG38jYwQDwbQROcLIhwYxdRyl
+         aq0IR98abW4OFp54Jfa8YSJiqcrZIsooK5DWLvG77c27YMRrlynmkYulLz2taQwpy2BE
+         5NfKUwUZ+3A5O3xyn2qM0+3VFpilzTagishkqX3YebnCfEkZvzQNIFoU5fRLFgyUiYNB
+         HD9b/rK1czRPmDLBFXx+sec35WdjOJQpJ2jXhqhFNBwfScpUmBNUBQOrYIATUq2omCeS
+         HUvA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=8X8d8nuuFTNGderbbUxi3ljdxUD3SxEZjQVsqfCxyzY=;
+        b=mcpwInfnQPNBZ6VZF3hRMOht9qhBi58gAX1p6MKxRvc0R8J6OtHxgiikXmXx39hIcX
+         ZdQcC1VgGetUaz7L1o9w/KW0LmPijmjpof088QuuB3j2Y2v4U1plA1984rN5zgMKnYx4
+         i7RuwwQm3WaD8IO1V1bCTTnFlTAp0ju5PWR1TS4SrqqbhDWswJ8bZgIUAPe96lCXtrGt
+         xMBoMNofl0Ct5IvbcSaba0cAPxAX1d3CcgJ79lxnl9d3/VC126okLPbtxvL0G1U4be09
+         gF/sPtZwtM7DxvH2VN46Ym3IzJpeiqSql+ML6iViYRZW3F6bgITpheHFd0MOfuXwon8Z
+         k8tw==
+X-Gm-Message-State: AOAM531Lo6humFudn03xLqKSoCBfAlv9DcKwTW+CRgjKpjO7/qp21H83 2Ifj96Y1fRsxouNB9fMOrg1PZo3T3paV1RM+PuF281Sl
+X-Google-Smtp-Source: ABdhPJyKHadtXSPxjR3htmDrRm+Qs7HNaLpBWtzdB7kGHgJ+punvTN3Ib93KoOX4pT1FSd3pLC3Z8Qr24a+3isrgVh8=
+X-Received: by 2002:a92:cc03:: with SMTP id s3mr1566093ilp.45.1613120984324; Fri, 12 Feb 2021 01:09:44 -0800 (PST)
+MIME-Version: 1.0
+References: <20201203185822.A11164@IHYDSUNT5-15-LD04.icicibankltd.com>
+In-Reply-To: <20201203185822.A11164@IHYDSUNT5-15-LD04.icicibankltd.com>
+From: sonali sonavane <sonali.sonavane@gmail.com>
+Date: Fri, 12 Feb 2021 14:39:31 +0530
+Message-ID: <CAJMi8yONQALBObMct7Db8ojp8q6C3JvkOSrAXoC1pkoSG4_GCA@mail.gmail.com>
+Subject: Fwd: Transaction alert for your ICICI Bank debit card
+To: sshabista010@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000401d7705bb1fff41"
+
+--000000000000401d7705bb1fff41
+Content-Type: text/plain; charset="UTF-8"
+
+---------- Forwarded message ---------
+From: alert @ icicibank . com <alert@icicibank.com>
+Date: Thu, Dec 3, 2020, 6:58 PM
+Subject: Transaction alert for your ICICI Bank debit card
+To: <SONALI.SONAVANE@gmail.com>
+
+
+Dear Customer,
+
+Greetings from ICICI Bank.
+
+Cash Withdrawal of INR 10,000.00 has been made at an ATM using your Debit
+Card linked to Account XX532 on 03-Dec-20. Info: ATM*SACWL638*CA.
+
+The Available Balance in your Account is INR 83,806.01.
+
+In case you have not done this transaction, please call on 18002662 or SMS
+BLOCK 532 to 9215676766  from your registered mobile number.
+
+NEVER SHARE your Card number, CVV, PIN, OTP, Internet Banking User ID,
+Password or URN with anyone, even if the caller claims to be a bank
+employee. Sharing these details can lead to unauthorised access to your
+account.
+
+Looking forward to more opportunities to be of service to you.
+
+Sincerely,
+
+Customer Service Team
+ICICI Bank Limited
+
+This is a system-generated e-mail. Please do not reply to this e-mail.
+
+--000000000000401d7705bb1fff41
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">---------- Forwarded message ---------<br>From: <strong c=
+lass=3D"gmail_sendername" dir=3D"auto">alert @ icicibank . com</strong> <sp=
+an dir=3D"auto">&lt;<a href=3D"mailto:alert@icicibank.com">alert@icicibank.=
+com</a>&gt;</span><br>Date: Thu, Dec 3, 2020, 6:58 PM<br>Subject: Transacti=
+on alert for your ICICI Bank debit card<br>To:  &lt;<a href=3D"mailto:SONAL=
+I.SONAVANE@gmail.com">SONALI.SONAVANE@gmail.com</a>&gt;<br></div><br><br>De=
+ar Customer,<br>
+<br>
+Greetings from ICICI Bank.<br>
+<br>
+Cash Withdrawal of INR 10,000.00 has been made at an ATM using your Debit C=
+ard linked to Account XX532 on 03-Dec-20. Info: ATM*SACWL638*CA.<br>
+<br>
+The Available Balance in your Account is INR 83,806.01.<br>
+<br>
+In case you have not done this transaction, please call on 18002662 or SMS =
+BLOCK 532 to 9215676766=C2=A0 from your registered mobile number.<br>
+<br>
+NEVER SHARE your Card number, CVV, PIN, OTP, Internet Banking User ID, Pass=
+word or URN with anyone, even if the caller claims to be a bank employee. S=
+haring these details can lead to unauthorised access to your account.<br>
+<br>
+Looking forward to more opportunities to be of service to you.<br>
+<br>
+Sincerely,<br>
+<br>
+Customer Service Team<br>
+ICICI Bank Limited<br>
+<br>
+This is a system-generated e-mail. Please do not reply to this e-mail.<br>
+</div>
+
+--000000000000401d7705bb1fff41--

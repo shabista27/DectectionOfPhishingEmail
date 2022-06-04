@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Scan</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+<nav class="left">
+<a href="#menu"><span>Menu</span></a>
+</nav>
+<a href="index.html" class="logo">Controlled Intelligence</a>
+
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+<ul class="links">
+<li><a href="index.html">Home</a></li>
+<li><a href="registration.html">Join Us</a></li>
+<li><a href="index.html">About Us</a></li>
+<li><a href="contactus.html">Contact Us</a></li>
+</ul>
+</nav>
+<!-- Main -->
+<section id="main" class="wrapper">
+<div class="inner">
+<header class="align-center">
+<h1>Phishing Email or Not.... Lets Find Out.</h1>
+</header>
+<!-- Form -->
+
+
+
+
+<!-- Image loader -->
+<div class="4u">
+<div id='loader' hidden>
+	<span class="image fit">
+	<img id="loader-img" src="images/loader.gif" alt="" />
+</span>
+ 
+</div>
+</div>
+
+<div id="popUpOverlay"></div>
+<div id="popUpBox">
+<div id="box">
+	
+		<img id="result" src="images/report.jpg">
+
+<h2 id="wresult"></h2>
+
+<div id="closeModal">
+</div>
+</div>
+</div>
+
+<form method="post">
+<div class="row">
+
+<div id="Mail" >
+
+	<h3 >Mail Please</h3>
+<div class="12u$">
+	<textarea name="message" id="message" placeholder="Paste The Full Email Including HeadersCopy & paste the content by clicking 'Show Original' or 'View Source' in your mail program." rows="12" cols="500" required onkeyup="ValidateMail();"></textarea>
+
+	<span id="lblError1" ></span>
+</div>
+
+<!-- Break -->
+<br>
+<br>
+<div class="12u$">
+	<ul class="actions">	
+	
+		
+		<li><input type="button" value="Check" id="button" disabled   onclick="putData()"/></li>
+<!--onclick="Alert.render()"-->
+
+		<li><input type="reset" value="Reset" class="alt" id="reset"/></li>
+	</ul>
+
+</div>
+
+</div>
+</form>
+
+<hr />
+
+</div>
+</section>
+
+
+
+
+
+
+<!-- Footer -->
+<footer id="footer">
+<div class="inner">
+<h2>Get In Touch</h2>
+<ul class="actions">
+<li><span class="icon fa-phone"></span> <a href="#">+91 0000 00000</a></li>
+<li><span class="icon fa-envelope"></span> <a href="#">sshabista010@gmail.com</a></li>
+
+</ul>
+</div>
+
+
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/checking.js"></script>
+
+</body>
+</html>

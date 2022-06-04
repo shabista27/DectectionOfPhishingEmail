@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log In</title>
+
+</head>
+<link rel="stylesheet" href="assets/css/login.css" /> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ <script src="assets/js/login.js"></script>
+<body>
+   <a href="index.html">
+   <input type="button" class="fadeIn first" value="Return" onclick="history.back()"></a>
+  <form method="post">
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+       
+
+  <h2 class="active underlineHover">Sign In </h2>
+     
+    <a href="registration.html">
+    <h2 class="inactive underlineHover">Sign Up </h2>
+   </a>
+
+
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="images/login.png" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    
+     <input type="email" id="Username" class="fadeIn third" name="Username" placeholder="Email" required>
+      <input type="password" id="password" class="fadeIn third" id="password" name="password" placeholder="Password" required>
+      <input type="button" id="login" class="fadeIn fourth" value="Log In" onclick="logins()">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+     
+      <a class="underlineHover" href="#">Forgot Password</a>
+    </div>
+        
+  </div>
+</div>
+
+
+ 
+</body>
+
+</html>
